@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnSubmit = new System.Windows.Forms.Button();
             this.lblInstruction = new System.Windows.Forms.Label();
             this.lblMessage = new System.Windows.Forms.Label();
@@ -37,7 +36,7 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Image = ((System.Drawing.Image)(resources.GetObject("btnSubmit.Image")));
+            this.btnSubmit.Image = global::Getting_Input.Properties.Resources.Ned_Flanders_ned_flanders_28647816_1000_1000_large;
             this.btnSubmit.Location = new System.Drawing.Point(1, 151);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(239, 168);
@@ -61,7 +60,7 @@
             // 
             // lblMessage
             // 
-            this.lblMessage.Image = ((System.Drawing.Image)(resources.GetObject("lblMessage.Image")));
+            this.lblMessage.Image = global::Getting_Input.Properties.Resources.ijaz_tist_icon_01_1;
             this.lblMessage.Location = new System.Drawing.Point(246, 151);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(341, 168);
